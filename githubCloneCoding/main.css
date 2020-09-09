@@ -1,0 +1,50 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+/*브라우저 기본 css값 초기화*/
+.header {
+    background : #ffe9f7;
+    border-bottom: 1px solid #dfbcdf;
+}
+.container {
+    background : #ffe9f7;
+    width : 980px;
+    margin : auto; /*container를 화면의 중앙으로 몰아주기(수평 가운데 정렬)*/
+    padding: 20px 0;
+    /*padding은 최상위 요소보다는 padding 효과를 넣을 영역과 가장 가까운 요소에 넣는 것이 좋음*/
+}
+.container-left {
+
+}
+.logo {
+    float: left;
+    margin-right: 5px;
+}
+.logo img {
+    /*여기서 띄어쓰기는 선택자에서 의미있는 기호*/
+    /*logo의 자식 요소나 하위 요소 중 img 태그를 찾으라는 것*/
+    display: block;
+}
+.menu {
+    float: left;
+}
+.menu-item {
+    float: left;
+    /*div는 기본적으로 수직으로 쌓이므로, 수직으로 쌓인 메뉴들을 가로로 정렬하기 위함*/
+    /* margin-right: 10px; */
+    /*메뉴끼리 칸 띄우기*/
+    /*본 예제의 경우 padding값을 지정하는 것 만으로도 margin과 동일한 효과(요소와 요소 사이 여백 생성)를 낼 수 있으므로 생략한다.*/
+    /*그러나 요소 간의 여백 생성하는 정석적인 방법은 margin을 쓰는 것*/
+    padding: 18px 10px;
+    /*메뉴 상하 가운데 정렬 + 좌우 여백 조정*/
+    /*단축 속성으로 작성할 경우 (상하) (좌우)*/
+}
+.clearfix::after {
+    /*::는 '가상요소 선택자'를 의미함*/
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*유지보수할 때 불편함을 줄이려면 css 코드작성 순서를 html 코드작성 순서와 맞춰줘야 함*/

@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>GitHub</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
     <div class="header">
         <div class="container">
-            <div class="container-left">
+            <div class="container-left clearfix">
+            <!--위 div는 두 개의 클래스를 가짐(container-left), clearfix)-->
+            <!--container-left는 logo와 menu의 부모 요소이다.-->
                 <div class="logo">
                     <img src="./mooncrystal01.png" alt="moonCrystal logo">
                 </div>
-                <div class="menu">
+                <div class="menu clearfix">
+                <!--위 div는 두 개의 클래스를 가짐(menu, clearfix)-->
                     <div class="menu-item">Personal</div>
                     <div class="menu-item">Open Source</div>
                     <div class="menu-item">Business</div>
