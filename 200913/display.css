@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+div {
+    background: steelblue;
+    color: whitesmoke;
+    width: 120px;
+    height: 80px;
+    display: inline; /* block 요소인 div에 inline 요소의 속성을 부여하기 위함 */
+}
+span {
+    background: thistle;
+    width: 120px;
+    height: 80px;
+    display: block; /* inline 요소인 span에 block 요소의 속성을 부여하기 위함 */
+}
