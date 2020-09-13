@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* 기본 margin값과 padding값 초기화(reset) */
+div {
+    background: #cc9bbb;
+    width: 220px;
+    height: 60px;
+}
+span {
+    background: #2c142a;
+    color: thistle;
+    width: 220px;
+    /* 인라인 요소는 크기를 지정할 수 없으므로 위와 같이 width값 입력하여도 크기 변화 없음 */
+    height: 1px;
+    /* height값도 마찬가지로, 어떤 값을 입력하여도 크기 변화 없음 (span 태그 내의 콘텐츠(본 예제에서는 텍스트) 크기만큼만 나타남) */
+}
