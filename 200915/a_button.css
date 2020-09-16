@@ -1,0 +1,15 @@
+a {
+    font-weight: bold;
+    width: 100px;
+    line-height: 40px; /* 줄높이 */
+    border: 1px solid slategray; /* 외곽선 */
+    border-radius: 6px; /* 모서리를 둥글게 깎아주는 속성 */
+    display: block;
+    text-align: center;
+    background: slategray;
+    color: snow;
+}
+a:hover { /* 마우스를 올렸을 때 */
+    background: thistle;
+    border: 1px solid thistle;
+}
