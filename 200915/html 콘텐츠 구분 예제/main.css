@@ -1,0 +1,57 @@
+header {
+    background: turquoise;
+    margin: 10px;
+    padding: 20px;
+}
+header nav { /* 띄어쓰기를 통해 하위선택자 개념을 쓸 수 있음 */
+    
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+main {
+    display: flex;
+}
+section {
+    width: 70%;
+    background: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box; /* padding이 들어가도 요소의 크기가 커지지 않음 */
+}
+section h1 {
+
+}
+article { /* article은 기본적으로 독립성을 지니기 때문에, section의 하위태그로 입력하기 보다는 별도로 구분하여 독립성 보장 */
+    background: gainsboro;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+article h2 {
+
+}
+article p {
+
+}
+aside {
+    width: 30%;
+    /* section이 왼쪽부터 70%의 값을 가지므로 aside에 나머지 30%를 할당 */
+    background: teal;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer {
+    background: skyblue;
+}
+footer address {
+
+}
+footer address a {    
+    display: block;
+    /* inline 요소인 a 태그들을 수직으로 쌓기 위함 */
+}

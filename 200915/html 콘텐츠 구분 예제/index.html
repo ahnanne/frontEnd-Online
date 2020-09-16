@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>콘텐츠 구분 예제</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <nav> <!-- nav가 꼭 header 안에 있을 필요는 없음 -->
+            <ul>
+                <li>메뉴1</li>
+                <li>메뉴2</li>
+                <li>메뉴3</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Section</h1>
+            <article>
+                <h2>Article1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in arcu vel dolor gravida imperdiet. Donec vel posuere lacus. Nunc consectetur ipsum id turpis euismod hendrerit. Curabitur nisl augue, pellentesque sed felis laoreet, consectetur lobortis erat. Suspendisse pharetra lacus at interdum lobortis. Nullam a ligula eget eros commodo pellentesque. Quisque hendrerit lacus sagittis nisi posuere, sit amet semper tortor consequat. Sed non enim dictum, tempus sem id, tincidunt velit. Aenean porttitor facilisis rutrum. Proin non justo quis sapien condimentum lobortis ut in nulla. Nunc luctus arcu erat.</p>
+            </article>
+            <article>
+                <h2>Article2</h2>
+                <p>Etiam iaculis, libero in lacinia ornare, ligula nisl lobortis libero, a porta tellus augue vel ex. Nunc vestibulum at justo et vehicula. Suspendisse dolor nibh, tempor id felis sit amet, rhoncus aliquam eros. Donec nibh libero, faucibus quis purus dapibus, pretium porta neque. Pellentesque facilisis pretium tempus. Donec vehicula, lorem sit amet volutpat vulputate, nunc quam efficitur metus, a ultricies sapien lacus dapibus nulla. Pellentesque eget finibus odio, id blandit massa. Ut in ipsum a lacus convallis placerat. Suspendisse arcu sapien, condimentum eu pharetra sed, cursus sit amet nibh. Cras tincidunt tellus eu aliquam consequat. Morbi mattis felis ac consectetur finibus. Fusce non efficitur diam. Vivamus ut posuere dolor.</p>
+            </article>
+            <article>
+                <h2>Article3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia mi magna, sed dignissim lacus facilisis vel. Donec massa diam, placerat non feugiat vitae, congue non mi. Vestibulum mollis a massa eu faucibus. Fusce scelerisque nisi at urna posuere lobortis. Donec eget enim dignissim felis consequat pellentesque. Nulla sed turpis consequat, scelerisque metus a, tincidunt elit. Duis scelerisque nulla magna, vitae rhoncus dolor placerat eu. Sed dignissim, urna at tristique commodo, odio nibh pulvinar orci, eget iaculis mi est placerat risus.</p>
+            </article>
+        </section>
+    
+        <aside>
+            <!-- aside를 section의 우측에 위치시키려면 둘을 같은 라인에 놓아야 하므로, 이 두 요소를 하나의 요소(div 또는 main)으로 wrapping하는 작업 필요 -->
+            Aside
+        </aside>
+    </main>
+
+    <footer>
+        <address>
+            <a href="mailto:0223709@naver.com">0223709@naver.com</a>
+            <a href="tel:+8201012345678">010-1234-5678</a>
+        </address>
+    </footer>
+</body>
+</html>
