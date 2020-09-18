@@ -1,0 +1,22 @@
+kbd {
+    padding: 0 3px;
+    border-radius: 3px;
+    border-top: 2px solid beige;
+    border-bottom: 2px solid thistle;
+    border-left: 2px solid beige;
+    border-right: 2px solid thistle;
+}
+
+div {
+    font-weight: bold;
+    background: turquoise;
+}
+
+span {
+    font-weight: bold;
+    background: turquoise;
+}
+
+p.break {
+    line-height: 50px;
+}
