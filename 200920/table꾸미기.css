@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+}
+/* 칸들 사이의 간격 없애기 */
+caption {
+    font-size: smaller;
+    font-weight: bold;
+    background: silver;
+}
+th#th-data {
+    background: greenyellow;
+}
+th {
+    border: 1px solid greenyellow;
+    padding: 15px;
+}
+td {
+    border: 1px solid greenyellow;
+    padding: 15px;
+}

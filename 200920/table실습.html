@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko"">
+<head>
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>table 태그 실습</title>
+<link rel="stylesheet" href="./table꾸미기.css">
+</head>
+
+<body>
+    <table>
+        <caption>[데이터 타입과 값]</caption>
+        <colgroup>
+            <col style="background-color: honeydew;" span="2">
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th id="th-data" colspan=2>데이터</th>
+            </tr>
+            <tr>
+                <th id="th-type" abbr="Type" scope="col" headers="th-data">타입</th>
+                <th id="th-value" abbr="Value" scope="col" headers="th-data">값</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td headers="th-type">알파벳</td>
+                <td headers="th-value">A</td>
+            </tr>
+            <tr>
+                <td headers="th-type">숫자</td>
+                <td headers="th-value">7</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
