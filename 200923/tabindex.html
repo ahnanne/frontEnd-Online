@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" value="1">
+        <input type="text" value="2">
+        <input type="text" value="3">
+        <input type="text" value="4">
+        <input type="text" value="5">
+        <input type="text" value="14" tabindex="-1">
+        <input type="text" value="7" tabindex="1">
+        <input type="text" value="8" tabindex="2">
+        <input type="text" value="6">
+        <input type="text" value="10" tabindex="3">
+    </div>
+    <!-- 위와 같이, tabindex="1" 이상의 양수 값을 지정하면, 논리적 흐름을 방해함 -->
+    <div tabindex="0">2.5</div>
+    <!-- 비대화형 콘텐츠에 tabindex="0"을 지정하면, 대화형 콘텐츠와 같이 탭 순서를 사용할 수 있음 -->
+</body>
+
+</html>
