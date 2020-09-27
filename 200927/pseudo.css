@@ -1,0 +1,44 @@
+a:hover {
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.4s;
+}
+/* transition 속성은 요소에 변환이 일어나는 동안 자연스러운 애니메이션 효과를 줌 */
+.box {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background: mediumpurple;
+}
+.box:hover {
+    width: 200px;
+    transition: 0.4s;
+}
+.active {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; 
+    width: 100px;
+    height: 100px;
+    background: mediumseagreen;
+}
+.active:active {
+    width: 200px;
+    background: moccasin;
+    transition: 2s;
+}
+input {
+    width: 100px;
+    outline: none;
+    border: 1px solid lightpink;
+    padding: 5px 10px;
+}
+input:hover {
+    border-color: orchid;
+}
+input:focus {
+    border-color: yellowgreen;
+    transition: 1s;
+}

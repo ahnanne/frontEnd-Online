@@ -1,0 +1,29 @@
+/* !important */
+div {
+    color: crimson !important;
+} 
+
+/* 아이디 선택자 */
+#color_yellow {
+    color: darkkhaki;
+}
+
+/* 클래스 선택자 */
+.color_green {
+    color: darkolivegreen;
+}
+
+/* 태그 선택자 */
+div {
+    color: dodgerblue;
+}
+
+/* 전체 선택자 */
+* {
+    color: mediumblue;
+}
+
+/* 상속 */
+body {
+    color: mediumorchid;
+}
