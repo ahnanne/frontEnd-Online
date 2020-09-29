@@ -1,0 +1,17 @@
+ul {
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: mediumorchid;
+    margin-right: 1px;
+    display: inline-block;
+    border-radius: 40%;
+}
+/* before을 사용할 때는 content 속성을 필수적으로 작성 해야함 ! */
+/* 그래야 화면에 시각적으로 표시됨 */

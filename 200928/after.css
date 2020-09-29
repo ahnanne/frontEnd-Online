@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    font-size: 40px;
+    list-style: none;
+}
+ul li::after {
+    content: url(https://2.gravatar.com/avatar/5f5d3129c1b970bd94c32fda4b23d623?s=56&d=monsterid&r=G);
+}
+div {
+    font-size: 100px;
+}
+div::before {
+    content: "<";
+}
+div::after {
+    content: ">";
+}

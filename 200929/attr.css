@@ -1,0 +1,9 @@
+[disabled] {
+    opacity: 0.2; /* 20% */
+    color: red;
+}
+/* 속성 선택자 */
+[value="1234"] {
+    background-color: sandybrown;
+    opacity: 0.4;
+}

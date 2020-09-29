@@ -1,0 +1,16 @@
+.fruits li:first-child {
+    color:palevioletred;
+}
+.fruits li:last-child {
+    color: darkorange;
+}
+.fruits li:nth-child(2) {
+    color: mediumaquamarine;
+}
+.fruits li:nth-child(2n) {
+    background-color: midnightblue;
+}
+/* n=0부터 시작되며, '짝수'번째 요소들만 선택됨 */
+.fruits li:nth-child(n+3) {
+    text-decoration: line-through;
+}

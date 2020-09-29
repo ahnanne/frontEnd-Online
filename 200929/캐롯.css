@@ -1,0 +1,10 @@
+[class^="btn"] {
+    background-color: mediumpurple;
+    border-radius: 20px;
+}
+[class$="er"] {
+    color: skyblue;
+}
+.list-item {
+    list-style: none;
+}
